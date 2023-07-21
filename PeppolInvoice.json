@@ -2,7 +2,8 @@
     "$metadata": {
         "type": "PeppolInvoice",
         "uris": {
-            "jsonLdContext": "https://github.com/ankitnag0/peppol-invoice-schema/blob/main/PeppolInvoice.jsonld"
+            "jsonLdContext": "https://github.com/ankitnag0/peppol-invoice-schema/blob/main/PeppolInvoice.jsonld",
+            "jsonSchema": "https://github.com/ankitnag0/peppol-invoice-schema/edit/main/PeppolInvoice.json"
         },
         "version": "0.2"
     },
