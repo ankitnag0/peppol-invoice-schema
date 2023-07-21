@@ -1,91 +1,29 @@
 {
-    "@context": [
-        {
-            "@protected": true,
-            "@version": 1.1,
-            "id": "@id",
-            "type": "@type",
-            "PeppolInvoice": {
-                "@context": {
-                    "@propagate": true,
-                    "@protected": true,
-                    "polygon-vocab": "urn:uuid:800424aa-d1d1-46ba-a0aa-d5c8cde9aa4e#",
-                    "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "invoice_id": {
-                        "@id": "polygon-vocab:invoice_id",
-                        "@type": "xsd:string"
-                    },
-                    "createdAt": {
-                        "@id": "polygon-vocab:createdAt",
-                        "@type": "xsd:string"
-                    },
-                    "customer_contact_email": {
-                        "@id": "polygon-vocab:customer_contact_email",
-                        "@type": "xsd:string"
-                    },
-                    "customer_contact_name": {
-                        "@id": "polygon-vocab:customer_contact_name",
-                        "@type": "xsd:string"
-                    },
-                    "customer_vat_number": {
-                        "@id": "polygon-vocab:customer_vat_number",
-                        "@type": "xsd:string"
-                    },
-                    "customer_address": {
-                        "@id": "polygon-vocab:customer_address",
-                        "@type": "xsd:string"
-                    },
-                    "customer_name": {
-                        "@id": "polygon-vocab:customer_name",
-                        "@type": "xsd:string"
-                    },
-                    "supplier_contact_phone": {
-                        "@id": "polygon-vocab:supplier_contact_phone",
-                        "@type": "xsd:string"
-                    },
-                    "supplier_contact_name": {
-                        "@id": "polygon-vocab:supplier_contact_name",
-                        "@type": "xsd:string"
-                    },
-                    "supplier_contact_email": {
-                        "@id": "polygon-vocab:supplier_contact_email",
-                        "@type": "xsd:string"
-                    },
-                    "supplier_vat_number": {
-                        "@id": "polygon-vocab:supplier_vat_number",
-                        "@type": "xsd:string"
-                    },
-                    "supplier_address": {
-                        "@id": "polygon-vocab:supplier_address",
-                        "@type": "xsd:string"
-                    },
-                    "supplier_name": {
-                        "@id": "polygon-vocab:supplier_name",
-                        "@type": "xsd:string"
-                    },
-                    "currency": {
-                        "@id": "polygon-vocab:currency",
-                        "@type": "xsd:string"
-                    },
-                    "amount": {
-                        "@id": "polygon-vocab:amount",
-                        "@type": "xsd:string"
-                    },
-                    "due_date": {
-                        "@id": "polygon-vocab:due_date",
-                        "@type": "xsd:string"
-                    },
-                    "invoice_date": {
-                        "@id": "polygon-vocab:invoice_date",
-                        "@type": "xsd:string"
-                    },
-                    "invoice_number": {
-                        "@id": "polygon-vocab:invoice_number",
-                        "@type": "xsd:string"
-                    }
-                },
-                "@id": "urn:uuid:9f5bfa64-e8a9-42de-9dd1-e60e16119a4b"
-            }
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "PeppolInvoice": {
+        "@id": "https://raw.githubusercontent.com/ankitnag0/peppol-invoice-schema/main/PeppolInvoice.jsonld",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "peppolInvoice-vocab": "https://github.com/ankitnag0/peppol-invoice-schema/blob/main/PeppolInvoice.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "invoice_number": {
+            "@id": "peppolInvoice-vocab:invoice_number",
+            "@type": "xsd:string"
+          },
+          "amount": {
+            "@id": "peppolInvoice-vocab:amount",
+            "@type": "xsd:string"
+          }
         }
-    ]
+      }
+    }
+  ]
 }
