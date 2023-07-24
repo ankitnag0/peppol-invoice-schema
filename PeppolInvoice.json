@@ -107,8 +107,13 @@
       "required": [
         "id",
         "invoice_number",
-        "amount",
         "invoice_date",
+        "amount",
+        "currency",
+        "supplier_name",
+        "supplier_address",
+        "buyer_name",
+        "buyer_address",
         "merkle_root"
       ],
       "properties": {
