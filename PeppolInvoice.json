@@ -108,6 +108,7 @@
         "id",
         "invoice_number",
         "amount",
+        "invoice_date",
         "merkle_root"
       ],
       "properties": {
