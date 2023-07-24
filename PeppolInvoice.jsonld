@@ -21,6 +21,10 @@
           "amount": {
             "@id": "peppolInvoice-vocab:amount",
             "@type": "xsd:string"
+          },
+          "merkle_root": {
+            "@id": "peppolInvoice-vocab:merkle_root",
+            "@type": "xsd:string"
           }
         }
       }
