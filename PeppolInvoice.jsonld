@@ -28,23 +28,23 @@
           },
           "currency":{
             "@id": "peppolInvoice-vocab:currency",
-            "@type": "string"
+            "@type": "xsd:string"
           },
           "supplier_name":{
             "@id": "peppolInvoice-vocab:supplier_name",
-            "@type": "string"
+            "@type": "xsd:string"
           },
           "supplier_address":{
             "@id": "peppolInvoice-vocab:supplier_address",
-            "@type": "string"
+            "@type": "xsd:string"
           },
           "buyer_name":{
             "@id": "peppolInvoice-vocab:buyer_name",
-            "@type": "string"
+            "@type": "xsd:string"
           },
           "buyer_address":{
             "@id": "peppolInvoice-vocab:buyer_address",
-            "@type": "string"
+            "@type": "xsd:string"
           },
           "merkle_root": {
             "@id": "peppolInvoice-vocab:merkle_root",
