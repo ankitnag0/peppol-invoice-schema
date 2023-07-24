@@ -18,6 +18,10 @@
             "@id": "peppolInvoice-vocab:invoice_number",
             "@type": "xsd:string"
           },
+          "invoice_date": {
+            "@id": "peppolInvoice-vocab:invoice_date",
+            "@type": "xsd:string"
+          },
           "amount": {
             "@id": "peppolInvoice-vocab:amount",
             "@type": "xsd:string"
