@@ -31,19 +31,19 @@
             "@type": "string"
           },
           "supplier_name":{
-            "@id": "peppolInvoice-vocab:supplier_name"
+            "@id": "peppolInvoice-vocab:supplier_name",
             "@type": "string"
           },
           "supplier_address":{
-            "@id": "peppolInvoice-vocab:supplier_address"
+            "@id": "peppolInvoice-vocab:supplier_address",
             "@type": "string"
           },
           "buyer_name":{
-            "@id": "peppolInvoice-vocab:buyer_name"
+            "@id": "peppolInvoice-vocab:buyer_name",
             "@type": "string"
           },
           "buyer_address":{
-            "@id": "peppolInvoice-vocab:buyer_address"
+            "@id": "peppolInvoice-vocab:buyer_address",
             "@type": "string"
           },
           "merkle_root": {
