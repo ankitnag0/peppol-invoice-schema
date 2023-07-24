@@ -107,7 +107,8 @@
       "required": [
         "id",
         "invoice_number",
-        "amount"
+        "amount",
+        "merkle_root"
       ],
       "properties": {
         "id": {
@@ -119,6 +120,9 @@
           "type": "string"
         },
         "amount": {
+          "type": "string"
+        },
+        "merkle_root": {
           "type": "string"
         }
       }
