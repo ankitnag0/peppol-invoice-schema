@@ -6,6 +6,14 @@ invoice_number represents a unique invoice number as string value
   "invoice_number": "INV000810"
 ```
 
+# invoice_date
+
+invoice_date represents a unique invoice date as ISO string value
+
+```
+  "invoice_date": "2023-05-30T04:59:19.539Z"
+```
+
 # amount
 
 amount represents invoice amount as string value
