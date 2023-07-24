@@ -27,7 +27,7 @@
             "@type": "xsd:string"
           },
           "currency":{
-            "@id": "peppolInvoice-vocab:currency"
+            "@id": "peppolInvoice-vocab:currency",
             "@type": "string"
           },
           "supplier_name":{
